@@ -1,4 +1,4 @@
-var CACHE_NAME = 'snapdrop-cache-v2';
+var CACHE_NAME = 'codext-filedrop';
 var urlsToCache = [
   'index.html',
   './',

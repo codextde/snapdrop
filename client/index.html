@@ -98,9 +98,9 @@
     <x-peers class="center"></x-peers>
     <x-no-peers>
       <h2>
-        Öffnen Sie https://filedrop.codext.de auf anderen Geräten, um Dateien zu
-        senden
+        Open https://filedrop.codext.de on another device to start sharing.
       </h2>
+      <h5>Disable iCloud Private Relay</h5>
     </x-no-peers>
     <x-instructions
       desktop="Click to send files or right click to send a message"
@@ -116,15 +116,15 @@
         placeholder="The easiest way to transfer data across devices"
       ></div>
       <div class="font-body2">
-        Sie können von jedem in diesem Netzwerk entdeckt werden
+        You can be discovered by anyone in this network
       </div>
     </footer>
     <!-- Receive Dialog -->
     <x-dialog id="receiveDialog">
       <x-background class="full center">
         <x-paper shadow="2">
-          <h3>Datei empfangen</h3>
-          <div class="font-subheading" id="fileName">Dateiname</div>
+          <h3>File received</h3>
+          <div class="font-subheading" id="fileName">Filename</div>
           <div class="font-body2" id="fileSize"></div>
           <div class="preview" style="visibility: hidden">
             <img id="img-preview" src="" />
