@@ -55,10 +55,8 @@ class ServerConnection {
     }
 
     _endpoint() {
-        // hack to detect if deployment or development environment
-        const protocol = location.protocol.startsWith('https') ? 'wss' : 'ws';
         const webrtc = window.isRtcSupported ? '/webrtc' : '/fallback';
-        const url = protocol + '://' + location.host + location.pathname + 'server' + webrtc;
+        const url = 'wss://api.filedrop.codext.de' + webrtc;
         return url;
     }
 
